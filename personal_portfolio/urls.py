@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # includes the urls from the projects app, accessed only when prefixed by projects/
     path("projects/", include("projects.urls")),
+    # includes the urls from the blog app, accessed only when prefixed by blog/
+    path("blog/", include("blog.urls")),
 ]
