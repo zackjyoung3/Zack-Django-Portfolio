@@ -1,0 +1,1 @@
+For this project, I wanted to get some experience with Django. Right now is just an interface that will display the projects that are stored in an sqlite db and allow the user to click on the project and view project, its image and its description.
